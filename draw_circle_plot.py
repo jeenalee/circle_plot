@@ -237,7 +237,7 @@ def find_color(value_type, value):
     # Values for representing stat ranges from -5 to 5.     
     elif value_type == 'stat':
         # Multiply by 0.1 so that the values range from -0.5 to 0.5.
-        value = round(float(value)*0.1, 2))
+        value = round(float(value)*0.1, 2)
         
         # Get the absolute value because fold change is subjective.
         #    It doesn't matter which population expresses gene more
